@@ -46,5 +46,5 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: new-connection
-      resourceRef: service:/default/petstore/1.0.0/5c69c/PUBLIC
+    - name: testsdd
+      resourceRef: service:/default/greeting-service-go/v1/803f0/PUBLIC
