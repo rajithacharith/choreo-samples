@@ -25,7 +25,14 @@ paths:
               schema:
                 type: string
       deprecated: false
-      security:
-        - oauth2:
-            - greet:read
+
+  components:
+    default:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://test.com
+          scopes:
+            urn:choreocontrolplane:choreoauditloggingapi:audit_logs_view: View audit logs
+            urn:choreocontrolplane:choreoauditloggingapi:audit_logs_manage: Manage audit logs
 
