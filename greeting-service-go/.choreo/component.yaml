@@ -9,7 +9,3 @@ endpoints:
       networkVisibilities:
         - Public
       schemaFilePath: openapi.yaml
-dependencies:
-    connectionReferences:
-        - name: testsdd
-          resourceRef: service:/default/greeting-service-go/v1/803f0/PUBLIC
